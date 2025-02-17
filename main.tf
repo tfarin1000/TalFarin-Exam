@@ -35,3 +35,7 @@ module "ec2_instance" {
 }
 
 # git pull origin main --allow-unrelated-histories
+
+# this is a little change for git hub
+
+# git branch - get all the branches
