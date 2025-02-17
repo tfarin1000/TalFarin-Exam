@@ -1,0 +1,2 @@
+After going into cost explorer you need to choose the date of the time you want to check the costs
+At the bottom you can see the predictions of the end of the month costs based on historical data on the different aws services.

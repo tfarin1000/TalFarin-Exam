@@ -1,0 +1,3 @@
+I chose my instance from the list and created a cpu metric and set a static value to be greater than 70% over 5 min
+
+To create a notification I firstly created a new topic with the name of the alarm and an email associating to be sent to and then chose it as my current alarm notification

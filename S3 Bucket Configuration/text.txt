@@ -1,0 +1,1 @@
+Created a bucket in the s3 service gave it a name and ticked enable in the bucket versioning then edited the permissions inside the bucket to only a specific user

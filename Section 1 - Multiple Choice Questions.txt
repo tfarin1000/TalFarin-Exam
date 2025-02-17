@@ -46,5 +46,5 @@ helps to automate the account provisioning workflow and offer a dashboard for ce
 Answer: AWS outposts can run AWS services locally and connect to services available in the local AWS Region to extend AWS compute and run applications and workloads on premises
 using AWS services, tools, and APIs.
 
-21. Explain the key use cases for AWS Elastic File System (EFS) compared to S3 and EBS.
+21. Explain the key use cases for AWS Elastic File Syasdfdsstem (EFS) compared to S3 and EBS.
 Answer: AWS EFS is a scaleable file system that grows and shrinks and offer performance and shareable across
