@@ -47,10 +47,4 @@ Answer: AWS outposts can run AWS services locally and connect to services availa
 using AWS services, tools, and APIs.
 
 21. Explain the key use cases for AWS Elastic File System (EFS) compared to S3 and EBS.
-Answer: AWS EFS is a scaleable file system that grows and shrinks and offer performance and shareable across 
-
-AWS Elastic File System (EFS) is ideal for shared, scalable file storage accessible by multiple EC2 instances,
- such as for web servers or big data analytics. In contrast, Amazon S3 is object storage for static content and backups,
-  while EBS provides block-level storage for a single EC2 instance, suited for high-performance applications.
-   EFS offers automatic scalability and low-latency file system features,
-    making it suitable for dynamic and collaborative workloads.
+Answer: AWS EFS is a scaleable file system that grows and shrinks and offer performance and shareable across
