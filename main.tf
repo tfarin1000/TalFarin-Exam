@@ -39,3 +39,12 @@ module "ec2_instance" {
 # this is a little change for git hub
 
 # git branch - get all the branches
+
+# create a new folder
+# git init
+# git remote add origin https://github.com/your-username/your-repo.git
+# git pull origin main
+# if get error use - git pull origin main --allow-unrelated-histories
+# git add .
+# git commit -m "Your commit message"
+# git push -u origin main
