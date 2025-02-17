@@ -1,0 +1,56 @@
+1.C
+2.A
+3.C
+4.A
+5.B
+6.B
+7.A
+8.B
+9.C
+10.C
+11.A
+12. What are AWS Landing Zones, and how do they help with multi-account governance?
+Answer: AWS Landing Zones are environments created for multiple aws accounts and each account with the security,administration
+data isolation and billing of its own to create separation between teams, products or production environments (dev,stage,prod).
+
+13. Explain how AWS WAF protects web applications from common attacks.
+Anwer: AWS WAF protects web applications by Creating filters on web requests based on conditions such as IP addresses, headers and body, or custom URIs
+and protecting from common web exploits and compromise security credentials while logging in.
+
+14. What is AWS Snowball, and when should it be used?
+Answer: A Snowball a solution that uses secure a physical device you oreder and ship to Amazon to transfer up to petabyte-scale amount of data into and out of the AWS cloud.
+When there is a need to transfer large amount of data, while over the internet can take weeks or even months with high costs, with Snowball the time will be reduced with high security and Simplicity and lower costs.
+
+15. What are the key differences between AWS Backup and manual snapshot backups?
+Answer: AWS Backup is automatic with policy based managemen while snapshot needs to be manualy taken.
+AWS backup centralize all the backups across accounts.
+In AWS Backup a lifecycle management policies can be created to automatic delete snapshots or manage while manual snapshots need manual deletion or management
+
+16. How does AWS Shield help mitigate DDoS attacks?
+Asnwer: AWS Shield detect attaks on common Network Layers and provide automatic protection againts known DDos attacks by rerouting traffic through the DDoS mitigation systems 
+and automatic scaling of AWS resources to handle high traffic volumes and having integration with AWS WAF that enforce rate limiting on requests from known DDos Sources
+
+17. Explain the differences between AWS Transit Gateway and VPC Peering.
+Answer: vpc peering connecting between two VPCs while the more VPCs you have the more complex and harder to manage the connections between them can become 
+while Transit Gateway act as a hub that move the traffic between multiple VPCs and support easier and less complex management at one place than vpc peering at higher scale.
+
+18. What is AWS Step Functions, and how does it help with workflow automation?
+Answer: AWS Step Function let you combine individual tasks(steps) into a visual workflow to run serverless workflows.
+Step Function helps to visual the workflow design, creating automatic tasks to run on multiple AWS resources. 
+ 
+19. How does AWS Control Tower assist organizations in managing multiple AWS accounts?
+Answer: AWS Control Tower control multi-account environment based on security and apply on organizations and accounts controls (guardrails) that are high level rules that provide ongoing governance on the environment.
+helps to automate the account provisioning workflow and offer a dashboard for central cloud administration to control policies and resources and organization.
+
+20. What is the significance of AWS Outposts in hybrid cloud solutions?
+Answer: AWS outposts can run AWS services locally and connect to services available in the local AWS Region to extend AWS compute and run applications and workloads on premises
+using AWS services, tools, and APIs.
+
+21. Explain the key use cases for AWS Elastic File System (EFS) compared to S3 and EBS.
+Answer: AWS EFS is a scaleable file system that grows and shrinks and offer performance and shareable across 
+
+AWS Elastic File System (EFS) is ideal for shared, scalable file storage accessible by multiple EC2 instances,
+ such as for web servers or big data analytics. In contrast, Amazon S3 is object storage for static content and backups,
+  while EBS provides block-level storage for a single EC2 instance, suited for high-performance applications.
+   EFS offers automatic scalability and low-latency file system features,
+    making it suitable for dynamic and collaborative workloads.
